@@ -14,10 +14,12 @@ void FillArray(int[] array)
 
 void PrintArray(int[] arr)
 {
+    Console.Write("[ ");
     for (int index = 0; index < arr.Length; index++)
     {
         Console.Write(arr[index] + " ");
     }  
+    Console.WriteLine("]");
 }
 
 Console.Write("Input array's length: ");
