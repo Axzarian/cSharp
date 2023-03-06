@@ -51,7 +51,7 @@ void AvarageOfEachColumn(int [,] massif)
         {
             sum += massif [i,j];                    
         }
-        avarage = Math.Round(sum / (massif.GetLength(1)),1);
+        avarage = Math.Round(sum / (massif.GetLength(0)),1);
         Console.Write($"{avarage}\t");        
     }
 }
